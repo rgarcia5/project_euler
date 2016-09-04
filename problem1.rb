@@ -13,6 +13,3 @@ def sum_of_multiples
   end
 
 end
-
-
-
