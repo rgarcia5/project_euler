@@ -28,9 +28,6 @@ def iterate
   end
 
   greatest_count[0]
-
-
-
 end
 
 
