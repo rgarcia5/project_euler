@@ -1,5 +1,4 @@
 
-
 def factors(num)
   count = 0
   i = 1
@@ -33,8 +32,6 @@ def triangle_numbers
     end
     sum += i
     i += 1
-    
-
   end
 end
 
