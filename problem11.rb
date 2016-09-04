@@ -66,8 +66,6 @@ def top_right_diagonal
   end
 
   greatest_product
-
-
 end
 
 def verticle
