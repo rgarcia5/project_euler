@@ -10,10 +10,7 @@ def sum_of_multiples
   
   ary.inject(0) do |sum, num|
   	sum += num
-
   end
-
- 
 
 end
 
