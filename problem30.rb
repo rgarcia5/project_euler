@@ -4,8 +4,6 @@ def sum_of_fifth_powers
   	new_num = num
     num.to_s.split("").each do |digit|
       new_num -= (digit.to_i) ** 5
-           
-
     end  
 
     if new_num == 0
