@@ -4,8 +4,7 @@ def is_prime?(num)
     return false if num % i == 0
     i += 1
   end
-  return true
-  
+  true
 end
 
 def parts(num)
@@ -17,25 +16,20 @@ def sieve(n)
   i = 2
   sum = 0
  
-  
-    2.upto(Math.sqrt(n)) do |num1|
-      0.upto(n) do |num2|
-       ary[num1**2+num2*num1] = false 
-            
+  2.upto(Math.sqrt(n)) do |num1|
+    0.upto(n) do |num2|
+        ary[num1**2+num2*num1] = false 
       end
-      
       i += 1
-    end  
+  end  
   
   ary.each_with_index do |values, idx|
-   if values == true
-    sum += idx
-   end
-  end  
-
+    if values == true
+      sum += idx
+    end
+  end
   
   sum
-
 end
 
 def sum_of_primes(n)
@@ -47,10 +41,7 @@ def sum_of_primes(n)
     end
     i += 2
   end
-
   sum
-
-
 end
 
 p sum_of_primes(2_000_000)
