@@ -20,7 +20,7 @@ def iterate
   while i > 1
    current_count = collatz_sequence(i)
    if current_count > greatest_count[1]
-   	 greatest_count[0] = i
+     greatest_count[0] = i
      greatest_count[1] = current_count
    end
   
